@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="REGISTRATION"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <!-- <android.support.design.widget.TextInputLayout
+             android:id="@+id/Tname"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">-->
+        <EditText
+            android:id="@+id/edname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textStyle="bold"
+            android:hint="Name"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <!-- <android.support.design.widget.TextInputLayout
+             android:id="@+id/Tfname"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">-->
+        <EditText
+            android:id="@+id/edfaculty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textStyle="bold"
+            android:hint="Occupation"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></EditText>
+
+        <!-- <android.support.design.widget.TextInputLayout
+             android:id="@+id/Tmname"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">-->
+
+
+        <!-- <android.support.design.widget.TextInputLayout
+             android:id="@+id/Tvillage"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">-->
+        <EditText
+            android:id="@+id/edemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textStyle="bold"
+            android:hint="EmailId"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <!--<android.support.design.widget.TextInputLayout
+            android:id="@+id/Ttaluka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">-->
+        <EditText
+            android:id="@+id/edcontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textStyle="bold"
+
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:hint="ContactNumber" />
+
+
+
+        <!--<adroid.support.design.widget.TextInputLayout
+            android:id="@+id/Tdist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">-->
+        <EditText
+            android:id="@+id/edadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textStyle="bold"
+            android:hint="Address"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="Are you?"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Member(Police Inspecter)"/>
+        </RadioGroup>
+
+        <!-- <android.support.design.widget.TextInputLayout
+             android:id="@+id/Tperadd"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">-->
+
+        <Button
+            android:text="REGISTER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="100dp"
+            android:id="@+id/btnregister" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

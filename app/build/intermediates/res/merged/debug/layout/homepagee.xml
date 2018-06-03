@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@android:color/background_light"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtforgot"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="76dp"
+        android:gravity="right"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/fontcolor"
+        android:id="@+id/loginbtn"
+        android:background="@color/colorAccent"
+        android:layout_alignBottom="@+id/txtforgot"
+        android:layout_marginBottom="69dp" />
+
+    <EditText
+        android:id="@+id/edpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loginbtn"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+
+        android:src="@drawable/crime_background"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/add_mail" />
+
+    <EditText
+        android:id="@+id/add_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:hint="EmailId"
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/edpwd"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:text="Register"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/textView3" />
+
+
+</RelativeLayout>

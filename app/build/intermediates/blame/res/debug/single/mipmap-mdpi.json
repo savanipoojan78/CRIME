@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Udacity\\CRIME\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "E:\\Udacity\\CRIME\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\CRIME\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "E:\\CRIME\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    }
+]

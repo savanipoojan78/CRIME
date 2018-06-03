@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPLAINT"
+        android:textSize="20dp"
+
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/t"
+        android:text="Select Crime"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spcrime"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_below="@id/spcrime"
+        android:layout_marginTop="15dp"
+        android:text="Where did it happen?"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textv"
+        android:layout_weight="1" />
+
+    <RadioButton
+        android:padding="5dp"
+        android:text="No"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rno"
+        android:textStyle="bold"
+        android:layout_below="@+id/textv1"
+        android:layout_toEndOf="@+id/ryes"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="15dp" />
+
+    <RadioButton
+        android:text="Yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ryes"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/rno"
+        android:layout_alignBottom="@+id/rno"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textv1"
+        android:textStyle="bold"
+        android:text="Do you know where it happened?"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/eroad"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:hint="Road no and Town,Colony"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eroad"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:layout_below="@+id/textv"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp" />
+
+    <TextView
+
+        android:text="Do you know who the offender is?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textv2"
+        android:layout_below="@+id/rno"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginTop="12dp" />
+
+    <RadioButton
+        android:text="Yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@+id/textv2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/radioButton" />
+
+    <RadioButton
+        android:text="No"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/radioButton"
+        android:layout_alignStart="@+id/rno"
+        android:id="@+id/radioButton2" />
+
+    <TextView
+        android:text="Can you describe ciminal activity or person?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:textStyle="bold"
+        android:id="@+id/textView4"
+        android:layout_alignEnd="@+id/textv2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="Type here"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/editText" />
+
+    <Button
+        android:background="@color/colorAccent"
+        android:text="SUBMIT"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

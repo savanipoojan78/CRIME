@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\POOJAN\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="E:\Udacity\CRIME\app\build\intermediates\pre-dexed\debug\common-1.0.0_f8e8d981356392c380095332da9871744b9379d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Udacity\CRIME\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\27.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="62e71cc187cfcb1ba382b05c5f39f5d903973656">
+        <dex dex="E:\Udacity\CRIME\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-27.0.0_13c425d2af5ab1e7c9d8b9fa6fd09e674ec25c5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Udacity\CRIME\app\build\intermediates\exploded-aar\com.android.support\support-fragment\27.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9e3177fae918dbe4e58eccf197cfb56bfaf59803">
+        <dex dex="E:\Udacity\CRIME\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-27.0.0_c5961b68e656a778585d84a4d76753f1fcc28cb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Udacity\CRIME\app\build\intermediates\exploded-aar\com.android.support\support-compat\27.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="89172db744f643c670ee7f9620b39ed460bc23fb">
+        <dex dex="E:\Udacity\CRIME\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-27.0.0_b27414b6a376f0c9f1c47fa0ff4ae04eb213c191.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\POOJAN\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.0.0\a7782471b2a0de8fec071b8094a8aaf61c46ab70\support-annotations-27.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a7782471b2a0de8fec071b8094a8aaf61c46ab70">
+        <dex dex="E:\Udacity\CRIME\app\build\intermediates\pre-dexed\debug\support-annotations-27.0.0_960851af5c6eafbe953cc316e8ee6edf65772d3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Udacity\CRIME\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\27.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e616b95568c5f38322799069485eb73f68ffec0a">
+        <dex dex="E:\Udacity\CRIME\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-27.0.0_733393025b6f72e24dd09c8b9802b83e83aeb2c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Udacity\CRIME\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="E:\Udacity\CRIME\app\build\intermediates\pre-dexed\debug\android.arch.lifecycle-runtime-1.0.0_033eb857fec7caf183f4193d8d9f53673fa1a0a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Udacity\CRIME\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\27.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="cf7abe2a43ffb1d475e94d0877ef3abb95fff56e">
+        <dex dex="E:\Udacity\CRIME\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-27.0.0_b2412fd47adef8864a14774fd0a5c19e8f6cdf2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Udacity\CRIME\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\27.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0e97fa8abc1a1a90087ce8b093d11f1a8e0f1214">
+        <dex dex="E:\Udacity\CRIME\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-27.0.0_8e1bef5b178ddb0bdcdef37fa334d9c794449fb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\POOJAN\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="E:\Udacity\CRIME\app\build\intermediates\pre-dexed\debug\common-1.0.0_a0640d216b765da68ea0d1e4eba414e10555ea4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Udacity\CRIME\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\27.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="7103318ab8a16fe56a325b7554b088f4d49e4700">
+        <dex dex="E:\Udacity\CRIME\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-27.0.0_16f33e6f0f11ed5843455d773750db5accc28422.jar" />
+    </item>
+
+</items>
