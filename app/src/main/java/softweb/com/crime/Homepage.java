@@ -23,8 +23,8 @@ public class Homepage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.homepagee);
 
-        name = (EditText) findViewById(R.id.add_mail);
-        pwd = (EditText) findViewById(R.id.edpwd);
+        name = (EditText) findViewById(R.id.add_occuption);
+        pwd = (EditText) findViewById(R.id.add_crime_type);
 
         tv = (TextView) findViewById(R.id.textView3);
 

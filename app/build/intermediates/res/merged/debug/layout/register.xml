@@ -88,7 +88,7 @@
              android:layout_width="match_parent"
              android:layout_height="wrap_content">-->
         <EditText
-            android:id="@+id/add_mail"
+            android:id="@+id/add_occuption"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"

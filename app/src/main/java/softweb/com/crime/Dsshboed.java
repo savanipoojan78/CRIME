@@ -13,7 +13,7 @@ import android.widget.Button;
 public class Dsshboed extends AppCompatActivity
 {
 
-    Button addm,arecord,most,comp,askque,sugges,view;
+    Button addm,arecord,most,comp,askque,sugges,view,signout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -27,8 +27,16 @@ public class Dsshboed extends AppCompatActivity
         comp = (Button) findViewById(R.id.complaint);
         askque = (Button) findViewById(R.id.askque);
         sugges = (Button) findViewById(R.id.sugges);
+        signout=(Button) findViewById(R.id.signout);
 
         //view = (Button) findViewById(R.id.fileshare);
+        signout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Dsshboed.this,Homepage.class);
+                startActivity(i);
+            }
+        });
         addm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

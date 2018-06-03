@@ -26,7 +26,7 @@ public class Register2 extends AppCompatActivity {
         name = (EditText) findViewById(R.id.edname);
         fcode = (EditText) findViewById(R.id.edfaculty);
        // dept = (EditText) findViewById(R.id.eddept);
-        email = (EditText) findViewById(R.id.add_mail);
+        email = (EditText) findViewById(R.id.add_occuption);
 
        // pwd = (EditText) findViewById(R.id.edpwd);
         contact = (EditText) findViewById(R.id.edcontact);

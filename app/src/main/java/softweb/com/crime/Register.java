@@ -24,7 +24,7 @@ public class Register extends AppCompatActivity {
         address = (EditText) findViewById(R.id.add_address);
         post = (EditText) findViewById(R.id.add_post);
 
-        email = (EditText) findViewById(R.id.add_mail);
+        email = (EditText) findViewById(R.id.add_occuption);
         contact = (EditText) findViewById(R.id.add_contact);
         area = (EditText) findViewById(R.id.add_work);
 
